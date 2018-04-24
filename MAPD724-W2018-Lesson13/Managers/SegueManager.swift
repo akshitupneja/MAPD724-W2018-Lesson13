@@ -1,10 +1,13 @@
 //
-//  SegueManager.swift
-//  MAPD724-W2018-Lesson13
+//  Team Members:
+//  Akshit Upneja (300976590)
+//  santhosh damodharan (300964037)
+//  Amanpreet Kaur (300966930)
 //
-//  Created by Tom Tsiliopoulos on 2018-04-23.
-//  Copyright © 2018 CentennialCollege. All rights reserved.
+//  Created by Akshit Upneja on 2017-12-31.
+//  Copyright © 2017 Centennial College. All rights reserved.
 //
+
 
 class SegueManager {
     
