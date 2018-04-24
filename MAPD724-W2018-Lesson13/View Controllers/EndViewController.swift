@@ -22,4 +22,28 @@ class EndViewController: UIViewController {
         performSegue(withIdentifier: SegueManager.SecondView, sender: sender)
     }
     
+    func AnimateEndScreenLabel() {
+        UIView.animateKeyframes(withDuration: 4, delay: 0,
+                                options: [.repeat, .autoreverse], animations: {
+                                    
+            UIView.addKeyframe(withRelativeStartTime: 0.0, relativeDuration: 0.25, animations: {
+                
+            })
+            
+            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25, animations: {
+                
+            })
+            
+            UIView.addKeyframe(withRelativeStartTime: 0.50, relativeDuration: 0.25, animations: {
+                
+            })
+            
+            UIView.addKeyframe(withRelativeStartTime: 0.75, relativeDuration: 0.25, animations: {
+                
+            })
+                                    
+                                    
+        }, completion: nil)
+    }
+    
 }
