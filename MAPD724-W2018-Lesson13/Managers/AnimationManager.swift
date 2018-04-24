@@ -7,13 +7,17 @@
 //
 
 import CoreGraphics
+import UIKit
 
 class AnimationManager {
+    class var screenBounds: CGRect {
+        return UIScreen.main.bounds
+    }
     
     //Top
     class var Top:CGPoint {
         // TODO: return top value
-        return CGPoint(x: 10.0, y: 10.0)
+        return CGPoint(x: screenBounds.midX, y: screenBounds.minY)
     }
     
     //Right
